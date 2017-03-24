@@ -1,0 +1,51 @@
+$grey : #efefef;
+$nameBlue: #d3e4ff;
+
+body {
+	background-color: $grey;
+}
+.test {
+	background-color: $nameBlue;
+	margin-bottom: 10px;
+	padding: 0 10px 10px 10px;
+	border-radius: 7px;
+	&:hover {
+		background-color: white;
+	}
+}
+
+.eachName {
+	border: none;
+	background: none;
+	outline: none;
+}
+
+.editModal {
+	float:right;
+}
+
+.ingredients {
+	background-color: #eff5ff;
+	padding: 10px 0 10px 30px;
+	border-radius: 7px;
+}
+
+.editButton {
+	float: left;
+	margin-right: 5px;
+}
+
+.deleteButton {
+	float: none;
+}
+
+.addButton {
+	text-align: center;
+	button {
+		width: 100%;
+	}
+}
+
+.heading {
+	text-align: center;
+}
